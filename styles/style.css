@@ -44,7 +44,7 @@ line-height: 80px;}
 
 /* athletes styles */
 
-.athletes{
+ .athletes{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: black;
@@ -73,7 +73,6 @@ line-height: 80px;}
 /* logo style */
 
 .ball-logo img{
-    justify-content: center;
 
 height: 110px;
 margin: 20px 0px;}
@@ -94,6 +93,21 @@ font-size: 20px;}
     }
  
 
+    /* media queries */
+
+    @media screen and(max-width:488px){
+        .athletes{
+            background-color: brown;
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+    } 
+        
+    
+
+
+  
+    
 
 
 
