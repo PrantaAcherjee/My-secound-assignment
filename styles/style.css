@@ -1,0 +1,100 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+    
+
+    /* font collection done */
+
+
+    .match-info{
+        display: flex;
+        background-color: blue;
+        height: 500px;
+        justify-content: center;
+        margin-top: 15px;}
+
+
+    .live-link{
+display: flex;  
+background-color: indianred;    
+width: 168px;
+height: 44px;
+align-items: center;
+font-size: 16px;
+font-weight: 700;
+padding-left: 10px;
+border-radius: 5px;}
+.font-design{color: cornsilk;}
+.para-space{padding-right: 5px;}
+
+
+/* image  */
+.on-player img {
+    height: 438px;
+    width: 556px;
+}
+.heading-1{color: cornsilk;
+font-size: 64px;
+font-weight: bold;
+line-height: 80px;}
+
+/* athletes styles */
+
+.athletes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: black;
+    
+}
+.athlete{
+    align-items: center;
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: medium;
+    border: 10px solid white;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    
+}
+
+.athlete img{
+    width:330px ;
+    height:474px ;
+    align-items: center;
+    box-shadow: 0 0 40px;
+}
+
+/* logo style */
+
+.ball-logo img{
+    justify-content: center;
+
+height: 110px;
+margin: 20px 0px;}
+/* icons design */
+
+.fa-facebook.filled{color: blue;
+font-size: 20px;}
+.fa-instagram.filled{color:brown;
+font-size: 20px;}
+.fa-twitter.filled{color:deepskyblue;
+    font-size: 20px;}
+.fa-youtube.filled{color: indianred;
+    font-size: 20px;}
+
+    /* footer the end  */
+    footer{
+        text-align: center;
+    }
+ 
+
+
+
+
+
